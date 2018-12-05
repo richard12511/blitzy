@@ -2,11 +2,9 @@ defmodule Blitzy.Worker do
   use Timex
   require Logger
 
-  def start(url, caller) do
+  def start(url) do
     {timestamp, response} = Duration.measure(fn -> HTTPoison.get(url) end)
-
-    caller
-    |> send({self(), handle_response({Duration.to_milliseconds(timestamp), response})})
+    handle_response({Duration.to_milliseconds(timestamp), response})
   end
 
   defp handle_response({msecs, {:ok, %HTTPoison.Response{status_code: code}}}) when code >= 200 and code <= 304 do
@@ -19,7 +17,7 @@ defmodule Blitzy.Worker do
     {:error, reason}
   end
 
-  defp handle_response({_msecs, what_is_this}) do
+  defp handle_response({_msecs, _}) do
 #    Logger.info "worker [#{node()}-#{inspect self()}] errored out with #{inspect what_is_this}"
     {:error, :unknown}
   end
