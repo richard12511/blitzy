@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9c7f25c-e4ea-451d-a3ce-afbe3d9e6e6a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/blitzy/supervisor.ex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/cli.ex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blitzy" beforeDir="false" afterPath="$PROJECT_DIR$/blitzy" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/config.exs" beforeDir="false" afterPath="$PROJECT_DIR$/config/config.exs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/blitzy.ex" beforeDir="false" afterPath="$PROJECT_DIR$/lib/blitzy.ex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/blitzy/supervisor.ex" beforeDir="false" afterPath="$PROJECT_DIR$/lib/blitzy/supervisor.ex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/blitzy/worker.ex" beforeDir="false" afterPath="$PROJECT_DIR$/lib/blitzy/worker.ex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/cli.ex" beforeDir="false" afterPath="$PROJECT_DIR$/lib/cli.ex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mix.exs" beforeDir="false" afterPath="$PROJECT_DIR$/mix.exs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,35 +22,26 @@
       <file leaf-file-name="worker.ex" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/blitzy/worker.ex">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+            <state relative-caret-position="425">
+              <caret line="25" column="3" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.exs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/config.exs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="70" selection-start-line="7" selection-start-column="70" selection-end-line="7" selection-end-column="70" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cli.ex" pinned="false" current-in-tab="true">
+      <file leaf-file-name="cli.ex" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/cli.ex">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+            <state relative-caret-position="1411">
+              <caret line="98" column="3" selection-start-line="98" selection-start-column="3" selection-end-line="98" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mix.exs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="mix.exs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mix.exs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
+            <state relative-caret-position="459">
+              <caret line="27" column="3" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -69,12 +60,12 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/lib/blitzy/caller.ex" />
+        <option value="$PROJECT_DIR$/lib/blitzy.ex" />
+        <option value="$PROJECT_DIR$/lib/cli.ex" />
+        <option value="$PROJECT_DIR$/lib/blitzy/supervisor.ex" />
         <option value="$PROJECT_DIR$/lib/blitzy/worker.ex" />
         <option value="$PROJECT_DIR$/config/config.exs" />
         <option value="$PROJECT_DIR$/mix.exs" />
-        <option value="$PROJECT_DIR$/lib/blitzy/supervisor.ex" />
-        <option value="$PROJECT_DIR$/lib/blitzy.ex" />
-        <option value="$PROJECT_DIR$/lib/cli.ex" />
       </list>
     </option>
   </component>
@@ -103,6 +94,11 @@
             <path>
               <item name="blitzy" type="b2602c69:ProjectViewProjectNode" />
               <item name="blitzy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blitzy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blitzy" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="blitzy" type="b2602c69:ProjectViewProjectNode" />
@@ -152,12 +148,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1544044283973</updated>
-      <workItem from="1544044285145" duration="10716000" />
+      <workItem from="1544044285145" duration="11494000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10716000" />
+    <option name="totallyTimeSpent" value="11494000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="0" />
@@ -203,45 +199,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lib/blitzy.ex">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/blitzy/supervisor.ex">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lib/blitzy/worker.ex">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+        <state relative-caret-position="425">
+          <caret line="25" column="3" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/config.exs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="70" selection-start-line="7" selection-start-column="70" selection-end-line="7" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/blitzy.ex">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mix.exs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/blitzy/supervisor.ex">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
+        <state relative-caret-position="102">
+          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/cli.ex">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        <state relative-caret-position="1411">
+          <caret line="98" column="3" selection-start-line="98" selection-start-column="3" selection-end-line="98" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mix.exs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="3" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="3" />
         </state>
       </provider>
     </entry>
